@@ -1,0 +1,58 @@
+html,body{
+    height:100%;
+    margin: 0;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.image1{
+    background-image: url(images/image1.jpg);
+    min-height: 100%; 
+}
+.image2{
+    background-image: url(images/image2.jpg);
+    min-height: 500px;
+}
+.image3{
+    background-image: url(images/image3.jpg);
+    min-height: 500px;
+}
+.image1,
+.image2,
+.image3{
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    letter-spacing: 5px;
+    transform: translate(-50%, -50%);
+}
+.bg{
+    background: black;
+    padding: .5em;
+    border: 20px;
+    color: white;
+}
+h2{
+    margin: 0;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-dark{
+    color: white;
+    background-color: black;
+}
+.section-light{
+    color:black;
+    background-color: white;
+    margin: 0;
+}
